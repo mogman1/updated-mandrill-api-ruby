@@ -1,4 +1,4 @@
-module Mandrill
+module UpdatedMandrill
     class Error < Exception
     end
     class ValidationError < Error

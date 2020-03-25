@@ -1,6 +1,4 @@
-module Mandrill
-
-
+module UpdatedMandrill
     class Templates
         attr_accessor :master
 
@@ -2049,7 +2047,6 @@ module Mandrill
             _params = {:name => name}
             return @master.call 'metadata/delete', _params
         end
-
     end
 end
 
