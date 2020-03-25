@@ -2,10 +2,10 @@ require 'rubygems'
 require 'excon'
 require 'json'
 
-require 'mandrill/errors'
-require 'mandrill/api'
+require 'updated_mandrill/errors'
+require 'updated_mandrill/api'
 
-module Mandrill
+module UpdatedMandrill
     class API
 
         attr_accessor :host, :path, :apikey, :debug, :session
